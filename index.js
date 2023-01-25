@@ -54,16 +54,16 @@ function imprimir2(datos) {
                     <hr width="235" style="margin-left: 0px;background-color:#8068D8;" />
                     <div class="links" style="font-size:11px;">
                         <ul style="padding-left: 0px;">
-                            <li class="lista"><a href=''>${datos[2]}</a></li>
-                            <li class="lista"><b>Tel Ofic.</b><a href="tel:${datos[3]}">: ${datos[3]}</a></li>
-                            <li class="lista"><b>Tel Cel.</b><a href="tel:${datos[4]}">: ${datos[4]} </a></li>
-                            <li style="list-style-type: none;"><b>Dirección</b><a href="https://www.google.com/maps/place/Arcos+2215,+Buenos+Aires,+Argentina/@-34.5591455,-58.4547172,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcb5d328c6712d:0xdb3f53472f0c90d2!8m2!3d-34.5591455!4d-58.4547172">: Arcos 2215 Of. 101,</a></li>
-                            <li class="lista"><a href="https://www.google.com/maps/place/Arcos+2215,+Buenos+Aires,+Argentina/@-34.5591455,-58.4547172,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcb5d328c6712d:0xdb3f53472f0c90d2!8m2!3d-34.5591455!4d-58.4547172">Belgrano Buenos Aires - Argentina</a></li>
-                            <li class="lista"><a href="https://www.cloudsolutionslatam.com/?utm_source=Firma+email&utm_medium=Correo+electronico&utm_campaign=Firma+corporativa" target="_blank"><b>www.cloudsolutionslatam.com</b></a></li>
+                            <li style="padding-bottom: 4px;list-style-type: none;"><a style = "text-decoration: none;color: #311E6D;" href=''>${datos[2]}</a></li>
+                            <li style="padding-bottom: 4px;list-style-type: none;"><b>Tel Ofic.</b><a style = "text-decoration: none;color: #311E6D;" href="tel:${datos[3]}">: ${datos[3]}</a></li>
+                            <li style="padding-bottom: 4px;list-style-type: none;"><b>Tel Cel.</b><a style = "text-decoration: none;color: #311E6D;" href="tel:${datos[4]}">: ${datos[4]} </a></li>
+                            <li style="list-style-type: none;"><b>Dirección</b><a style = "text-decoration: none;color: #311E6D;" href="https://www.google.com/maps/place/Arcos+2215,+Buenos+Aires,+Argentina/@-34.5591455,-58.4547172,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcb5d328c6712d:0xdb3f53472f0c90d2!8m2!3d-34.5591455!4d-58.4547172">: Arcos 2215 Of. 101,</a></li>
+                            <li style="padding-bottom: 4px;list-style-type: none;"><a style = "text-decoration: none;color: #311E6D;" href="https://www.google.com/maps/place/Arcos+2215,+Buenos+Aires,+Argentina/@-34.5591455,-58.4547172,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcb5d328c6712d:0xdb3f53472f0c90d2!8m2!3d-34.5591455!4d-58.4547172">Belgrano Buenos Aires - Argentina</a></li>
+                            <li style="padding-bottom: 4px;list-style-type: none;"><a style = "text-decoration: none;color: #311E6D;" href="https://www.cloudsolutionslatam.com/?utm_source=Firma+email&utm_medium=Correo+electronico&utm_campaign=Firma+corporativa" target="_blank"><b>www.cloudsolutionslatam.com</b></a></li>
                         </ul>                   
                     </div>
                     <div style="padding-top: 3px;">
-                        <a  href="https://api.whatsapp.com/send?phone=541124608247&text=Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20soluciones%20"
+                        <a  href="https://wa.link/dvdygo"
                             target="_blank"><img
                                 src="https://www.cloudsolutionslatam.com/wp-content/uploads/2022/06/boton-whatsapp.png"
                                 width="24" height="24"></a>
@@ -86,19 +86,7 @@ function imprimir2(datos) {
                     </div>
                 </td>
             </tr>
-    
         </table>
-        <style>
-        .links a{
-            text-decoration: none;
-            color: #311E6D;
-        }
-        .lista{
-            padding-bottom: 4px;
-            list-style-type: none;
-        }
-
-            </style>
     </body>
 
     </html>`;
@@ -137,15 +125,15 @@ function imprimir(datos) {
                     </div>
                     <div class="links" style="font-size:11.5px;">
                         <ul style="padding-left: 0px;">
-                            <li class="lista"><a href=''>${datos[2]}</a></li>
-                            <li class="lista"><b>Tel Ofic.</b><a href="tel:${datos[3]}">: ${datos[3]}</a></li>
-                            <li style="list-style-type: none;"><b>Dirección</b><a href="https://www.google.com/maps/place/Arcos+2215,+Buenos+Aires,+Argentina/@-34.5591455,-58.4547172,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcb5d328c6712d:0xdb3f53472f0c90d2!8m2!3d-34.5591455!4d-58.4547172">: Arcos 2215 Of. 101,</a></li>
-                            <li class="lista"><a href="https://www.google.com/maps/place/Arcos+2215,+Buenos+Aires,+Argentina/@-34.5591455,-58.4547172,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcb5d328c6712d:0xdb3f53472f0c90d2!8m2!3d-34.5591455!4d-58.4547172">Belgrano Buenos Aires - Argentina</a></li>
-                            <li class="lista"><a href="https://www.cloudsolutionslatam.com/?utm_source=Firma+email&utm_medium=Correo+electronico&utm_campaign=Firma+corporativa" target="_blank"><b>www.cloudsolutionslatam.com</b></a></li>
+                            <li style="padding-bottom: 4px;list-style-type: none;"><a style = "text-decoration: none;color: #311E6D;" href=''>${datos[2]}</a></li>
+                            <li style="padding-bottom: 4px;list-style-type: none;"><b>Tel Ofic.</b><a style = "text-decoration: none;color: #311E6D;" href="tel:${datos[3]}">: ${datos[3]}</a></li>
+                            <li style="list-style-type: none;"><b>Dirección</b><a style = "text-decoration: none;color: #311E6D;" href="https://www.google.com/maps/place/Arcos+2215,+Buenos+Aires,+Argentina/@-34.5591455,-58.4547172,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcb5d328c6712d:0xdb3f53472f0c90d2!8m2!3d-34.5591455!4d-58.4547172">: Arcos 2215 Of. 101,</a></li>
+                            <li style="padding-bottom: 4px;list-style-type: none;"><a style = "text-decoration: none;color: #311E6D;" href="https://www.google.com/maps/place/Arcos+2215,+Buenos+Aires,+Argentina/@-34.5591455,-58.4547172,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcb5d328c6712d:0xdb3f53472f0c90d2!8m2!3d-34.5591455!4d-58.4547172">Belgrano Buenos Aires - Argentina</a></li>
+                            <li style="padding-bottom: 4px;list-style-type: none;"><a style = "text-decoration: none;color: #311E6D;" href="https://www.cloudsolutionslatam.com/?utm_source=Firma+email&utm_medium=Correo+electronico&utm_campaign=Firma+corporativa" target="_blank"><b>www.cloudsolutionslatam.com</b></a></li>
                         </ul>                   
                     </div>
                     <div style="padding-top: 6px;">
-                        <a  href="https://api.whatsapp.com/send?phone=541124608247&text=Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20soluciones%20"
+                        <a  href="https://wa.link/dvdygo"
                             target="_blank"><img
                                 src="https://www.cloudsolutionslatam.com/wp-content/uploads/2022/06/boton-whatsapp.png"
                                 width="24" height="24"></a>
@@ -170,17 +158,6 @@ function imprimir(datos) {
             </tr>
     
         </table>
-        <style>
-            .links a{
-                text-decoration: none;
-                color: #311E6D;
-            }
-            .lista{
-                padding-bottom: 4px;
-                list-style-type: none;
-            }
-    
-        </style>
     </body>
     
     </html>
